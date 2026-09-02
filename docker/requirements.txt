@@ -1,0 +1,29 @@
+# 420-C74-SF - Techniques d'apprentissage automatique
+# Environnement Python des ateliers (Python 3.13)
+
+# Calcul scientifique et manipulation de données
+numpy==2.5.2
+pandas==3.0.5
+scipy==1.18.1
+
+# Visualisation
+matplotlib==3.11.1
+seaborn==0.13.2
+Pillow==12.3.0
+
+# Apprentissage automatique
+scikit-learn==1.9.0
+scikit-image==0.26.0
+statsmodels==0.15.0
+imbalanced-learn==0.14.2
+mlxtend==0.25.0
+xgboost==3.4.1
+lightgbm==4.7.0
+hyperopt==0.3.0
+
+# Environnement de travail
+jupyterlab==4.6.3
+notebook==7.6.2
+ipykernel==7.3.0
+ipywidgets==8.1.9
+tqdm==4.70.0

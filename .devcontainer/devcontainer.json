@@ -1,0 +1,19 @@
+{
+  "name": "420-C74-SF Techniques d'apprentissage automatique",
+  "build": {
+    "dockerfile": "../docker/Dockerfile",
+    "context": "../docker"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.jupyter-renderers",
+        "mechatroner.rainbow-csv"
+      ]
+    }
+  },
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/${localWorkspaceFolderBasename},type=bind"
+}
