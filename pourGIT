@@ -1,0 +1,13 @@
+
+
+# Enregistrer ton travail
+git add .
+git commit -m "Mon travail"
+git push origin main
+
+
+#récupérer trucs du profs
+
+# Récupérer les nouveautés du prof
+git pull --rebase upstream main
+
