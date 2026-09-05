@@ -11,3 +11,5 @@ git push origin main
 # Récupérer les nouveautés du prof
 git pull --rebase upstream main
 
+# restaurer un fichier du prof
+git restore --source upstream/main -- fichier
