@@ -2,7 +2,7 @@
 
 # Enregistrer ton travail
 git add .
-git commit -m "Mon travail"
+git commit -m "5sept"
 git push origin main
 
 
